@@ -22,25 +22,7 @@ Welcome to the **AceHack Cyberpunk Landing Page** repository! This project is de
 
 ---
 
-## 📁 **Project Structure**
-```
-├── public/
-│   ├── cyberpunk-grid.png   # Background image for the theme
-│   ├── logo.png             # AceHack logo
-├── src/
-│   ├── components/
-│   │   ├── CountdownTimer.jsx    # Countdown timer logic and display
-│   │   ├── AboutUs.jsx           # About section content
-│   │   ├── Header.jsx            # Logo and tagline
-│   │   ├── Buttons.jsx           # Register Now and Join Our Community buttons
-│   ├── pages/
-│   │   ├── index.jsx             # Main landing page
-├── styles/
-│   ├── globals.css              # Global TailwindCSS styles
-├── tailwind.config.js           # Tailwind CSS configuration
-├── next.config.js               # Next.js configuration
-├── package.json                 # Dependencies and scripts
-```
+
 
 ---
 
@@ -51,7 +33,7 @@ Follow these steps to run the project locally:
 1. **Clone the Repository**:
    ```bash
    git clone <repository_url>
-   cd acehack-cyberpunk-landing
+   cd ace
    ```
 
 2. **Install Dependencies**:
@@ -98,25 +80,6 @@ Customize the content in the `AboutUs.jsx` component to reflect AceHack’s miss
 
 ---
 
-## 🎨 **Customizations**
-1. **Fonts**: 
-   - Custom fonts like **Orbitron**, **Rajdhani**, and **Share Tech Mono** are used for the Cyberpunk look. To add new fonts, edit the `globals.css` file or configure Tailwind.
-
-2. **Colors and Gradients**:
-   - Tailwind’s custom colors are defined in `tailwind.config.js`:
-     ```javascript
-     theme: {
-       extend: {
-         colors: {
-           neonPink: '#FF007F',
-           neonCyan: '#00FFFF',
-         },
-       },
-     }
-     ```
-
-3. **Background Image**:
-   Replace `/public/cyberpunk-grid.png` with your own asset for a different theme background.
 
 ---
 
