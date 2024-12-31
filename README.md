@@ -71,10 +71,10 @@ const eventDate = new Date("YYYY-MM-DDTHH:mm:ss").getTime();
 ```
 
 ### **About Section**
-Customize the content in the `AboutUs.jsx` component to reflect AceHack’s mission and values.
+Customize the content in the `AboutUs.js` component to reflect AceHack’s mission and values.
 
 ### **Buttons**
-- Update the `href` in the buttons located in the `Buttons.jsx` component:
+- Update the `href` in the buttons located in the `button.js` component:
    - **Register Now**: Link to your registration page.
    - **Join Our Community**: Link to a Discord server or community platform.
 
