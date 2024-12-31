@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# AceHack Cyberpunk Landing Page 🚀  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Welcome to the **AceHack Cyberpunk Landing Page** repository! This project is designed to showcase a futuristic and immersive landing page experience for the upcoming AceHack event. Built with **Next.js**, **Tailwind CSS**, and **shadcn**, this project adheres to the cutting-edge **Cyberpunk** aesthetic.
+
+## 🖥️ **Features**
+- **Dynamic Countdown Timer**: Displays the time left until the event date.
+- **AceHack Branding**: Includes the AceHack logo and tagline: *"Innovate. Elevate. Transform."*
+- **Interactive Buttons**:
+  - **Register Now** button to direct users to the registration form.
+  - **Join Our Community** button for community engagement.
+- **About Us Section**: A brief introduction to AceHack and its mission.
+- **Cyberpunk Theme**: A visually striking and tech-inspired design, incorporating neon gradients, grids, and glowing effects.
+
+---
+
+## ⚡ **Tech Stack**
+- **Framework**: [Next.js](https://nextjs.org/) (JavaScript, no TypeScript).
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) for modern, responsive styling.
+- **Component Library**: [shadcn](https://shadcn.dev/) for consistent and customizable UI components.
+
+---
+
+
+
+---
+
+## 🛠️ **Installation & Setup**
+
+Follow these steps to run the project locally:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository_url>
+   cd ace
+   ```
+
+2. **Install Dependencies**:
+   Ensure Node.js and npm are installed on your system. Then, run:
+   ```bash
+   npm install
+   ```
+
+3. **Run the Development Server**:
+   Start the local server:
+   ```bash
+   npm run dev
+   ```
+   Visit `http://localhost:3000` to view the landing page.
+
+4. **Build for Production**:
+   To generate a production build:
+   ```bash
+   npm run build
+   ```
+
+5. **Start Production Server**:
+   Serve the optimized build:
+   ```bash
+   npm run start
+   ```
+
+---
+
+## 🧩 **Usage**
+### **Dynamic Timer**
+The countdown timer dynamically updates to show the time remaining until the event date. To change the event date, modify the following line in `CountdownTimer.jsx`:
+```javascript
+const eventDate = new Date("YYYY-MM-DDTHH:mm:ss").getTime();
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **About Section**
+Customize the content in the `AboutUs.js` component to reflect AceHack’s mission and values.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### **Buttons**
+- Update the `href` in the buttons located in the `button.js` component:
+   - **Register Now**: Link to your registration page.
+   - **Join Our Community**: Link to a Discord server or community platform.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 **Deployment**
+You can deploy this project using platforms like [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/). Here’s how to deploy to Vercel:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Install the Vercel CLI:
+   ```bash
+   npm install -g vercel
+   ```
 
-## Deploy on Vercel
+2. Deploy your project:
+   ```bash
+   vercel
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
