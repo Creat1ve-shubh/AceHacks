@@ -2,12 +2,12 @@ import React from 'react'
 import Image from 'next/image'
 import ParallaxBackground from './components/parallax';
 import CyberpunkEventCountdownTimer from './components/countdown';
-import Buttons from './components/button';
-import Footer from './components/footer';
 import CyberpunkButtons from './components/button';
 import About from './section/aboutus';
 const Home = () => {
   return (
+   
+  
     <div className="bg-black text-neonYellow flex flex-col overflow-hidden text-opacity  min-h-screen">
       <ParallaxBackground />
       
