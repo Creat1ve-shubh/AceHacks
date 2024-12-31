@@ -1,6 +1,4 @@
-Here’s a comprehensive README template tailored for your AceHack Cyberpunk-themed landing page project. 
 
----
 
 # AceHack Cyberpunk Landing Page 🚀  
 
